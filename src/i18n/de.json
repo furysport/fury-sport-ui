@@ -1,0 +1,353 @@
+{
+    "common": {
+        "winner": "Ergebnis",
+        "buy-side": "KAUFEN",
+        "sell-side": "VERKAUFEN",
+        "days-of-week": {
+            "mon": "mon",
+            "tue": "die",
+            "wed": "mit",
+            "thu": "don",
+            "fri": "fre",
+            "sat": "sam",
+            "sun": "son"
+        },
+        "wallet": {
+            "connect-your-wallet": "Wallet verbinden",
+            "switch-wallet": "Wallet wechseln",
+            "disconnect-wallet": "Wallet Verbindung trennen",
+            "wallet-options": "Wallet Einstellungen",
+            "get-usd": "{{amount}} erhalten",
+            "approve": "Genehmigen",
+            "get-usd-progress": "{{amount}} wird gemintet...",
+            "disclaimer": "Indem du ein Wallet verbindest, bestätigst du, dass du den Overtime Markets <a target=\"_blank\" href={{link}}>Haftungsausschluss</a> gelesen und verstanden hast und mit den Nutzungsbedingungen einverstanden bist.",
+            "disclaimer1": "Indem du eine Wallet verbindest, bestätigst du, dass Sie die Overtime Markets gelesen und verstanden hast",
+            "disclaimer2": "und stimme den Nutzungsbedingungen zu.",
+            "disclaimer-lowercase": "Haftungsausschluss"
+        },
+        "voucher": {
+            "remaining-amount": "Verbleibender Betrag",
+            "overtime-voucher": "Overtime Gutschein",
+            "voucher": "Gutschein",
+            "mint-voucher": "Gutschein minten",
+            "modal": {
+                "title": "Overtime Gutschein minten",
+                "description": "<p>Die Funktionalität des Overtime Gutscheins wurde implementiert per <tip>TIP-76.</tip><p/>",
+                "voucher-amount-label": "Gutschein Betrag",
+                "another-wallet-label": "Gutschein an einen anderen Wallet senden",
+                "recipient-wallet-label": "Wallet des Empfängers",
+                "recipient-wallet-placeholder": "Die Addresse des Empfängers eingeben",
+                "button": {
+                    "mint-label": "Minten",
+                    "mint-progress-label": "Gutschein wird generiert...",
+                    "confirmation-message": "Gutschein erfolgreich generiert"
+                }
+            }
+        },
+        "referral": {
+            "link-copied": "Empfehlungs-Link kopiert!",
+            "button": {
+                "label": "Empfehlen und Prämie sichern",
+                "disbled-tooltip": "Verbinden dein Wallet, um einen Empfehlungs-Link zu generieren.",
+                "enabled-tooltip": "Laden Freunde ein, mit Overtime zu traden, um mit jedem ihrerer Trades Gebühren zu verdienen."
+            }
+        },
+        "swap": {
+            "title": "{{currencyKey}} erhalten",
+            "from-label": "Von",
+            "to-label": "Zu",
+            "balance-label": "Guthaben: {{amount}}",
+            "swap-label": "Tauschen",
+            "swap-progress-label": "Tausch wird fertig gestellt..."
+        },
+        "enable-wallet-access": {
+            "approve-label": "{{currencyKey}} genehmigen",
+            "approve-progress-label": "{{currencyKey}} wird genehmigt...",
+            "approve-all-label": "Alles genehmigen",
+            "custom-amount-label": "Betrag genehmigen"
+        },
+        "unsupported-network": {
+            "title": "Oops! Du bist im falschen Netzwerk!",
+            "description": "Du hast das falsche Netzwerk in deinem Wallet ausgewählt. Um fortzufahren, wechsel bitte zum Optimism Mainnet Netzwerk.",
+            "button": {
+                "optimism": "Zu Optimism wechseln."
+            }
+        },
+        "errors": {
+            "unknown-error-try-again": "Nach dem Absenden ist ein unbekannter Fehler aufgetreten. Bitte versuchen es erneut.",
+            "unknown-error-try-again-general": "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut.",
+            "insufficient-balance": "Unzureichendes Guthaben",
+            "enter-amount": "Betrag eingeben",
+            "enter-price": "Preis eigeben",
+            "insufficient-balance-wallet": "Bitte stell sicher, dass dein Wallet genügend {{currencyKey}} enthält",
+            "user-rejected-tx": "Benutzer hat die Transaktion abgelehnt",
+            "enter-address": "Adresse eingeben",
+            "invalid-address": "Ungültige Adresse"
+        },
+        "time-remaining": {
+            "ended": "zu Ende",
+            "years": "Jahre",
+            "year": "Jahr",
+            "months": "Monate",
+            "month": "Monat",
+            "weeks": "Wochen",
+            "week": "Woche",
+            "days": "Tage",
+            "day": "Tag",
+            "hours": "Stunden",
+            "hour": "Stunde",
+            "minutes": "Minuten",
+            "minute": "Minute",
+            "seconds": "Sekunden",
+            "second": "Sekunde",
+            "days-short": "d",
+            "hours-short": "h",
+            "minutes-short": "m",
+            "seconds-short": "s"
+        },
+        "or": "oder",
+        "dapp": "dapp",
+        "launch-dapp": "dapp starten",
+        "cancel": "Abbrechen",
+        "select-date": "Datum auswählen...",
+        "tags-placeholder": "Tags suchen...",
+        "remove-tag-tooltip": "Klicken um Tag zu entfernen",
+        "input-characters-note": "{{entered }} / {{max}}",
+        "view": "Ansehen",
+        "guidelines": "Richtlinien",
+        "built-on": "Ein Angebot von",
+        "odds": {
+            "american-odds": "Amerikanische Quoten",
+            "normalized-implied-odds": "Normalisierte implizite Quoten",
+            "decimal-odds": "Dezimalquoten"
+        },
+        "pagination": {
+            "rows-per-page": "Zeilen pro Seite:",
+            "page": "Seite"
+        },
+        "coming-soon": "Demnächst!",
+        "h2h-tooltip": "This is a head-to-head market. The winner will be the driver who finished on a better place in the main race.",
+        "mls-tooltip": "MLS markets results are based on regulation results, should they go to overtime the regulation result is the one the market will resolve at.",
+        "top-bet-type-title": "Will {{driver}} finish the {{race}} race in the {{betType}} drivers?",
+        "top3": "TOP 3",
+        "top5": "TOP 5",
+        "top10": "TOP 10",
+        "yes": "YES",
+        "no": "NO"
+    },
+    "footer": {
+        "all-rights-reserved": "© {{year}} eXoticV ALLE RECHTE VORBEHALTEN.",
+        "github": "GitHub",
+        "docs": "Dokumentation",
+        "twitter": "Twitter",
+        "medium": "Medium",
+        "discord": "Discord",
+        "tutorial": "Anleitung"
+    },
+    "market": {
+        "question-label": "Frage",
+        "time-remaining-label": "Verbleibende Zeit",
+        "sport": "Sport",
+        "pay-with": "Zahlen mit",
+        "status-label": "Status",
+        "tags-label": "Tags",
+        "search-placeholder": "Spiele suchen",
+        "open-markets-label": "Offen",
+        "resolved-markets-label": "Beendet",
+        "grid-view": "Raster",
+        "list-view": "Liste",
+        "skew-tooltip": "Skew Impact ist die Höhe der Prämie, die auf der Grundlage des aktuellen Risikos, das AMM auf diesem spezifischen Markt eingeht, zum Preis einer Position hinzugefügt wird.",
+        "toast-messsage": {
+            "transaction-pending": "Ausstehende Transaktion",
+            "swap-success": "Erfolgreich ausgetauscht {{ currencyKey }}",
+            "approve-success": "Erfolgreich genehmigt",
+            "buy-success": "Erfolgreich gekauft",
+            "sell-success": "Erfolgreich verkauft",
+            "claim-winnings-success": "Der Gewinn wurde erfolgreich eingefordert",
+            "claim-refund-success": "Die Erstattung wurde erfolgreich eingefordert.",
+            "withdraw-success": "Erfolgreich abgehoben",
+            "get-usd-success": "{{amount}} erfolgreich gemintet"
+        },
+        "filter-label": {
+            "global": {
+                "allmarkets": "Alle Märkte",
+                "openmarkets": "Offene Märkte",
+                "resolvedmarkets": "Beendete Märkte",
+                "yourpositions": "Deine Positionen",
+                "claim": "Einforderbar",
+                "history": "Deine Transactions",
+                "canceled": "Abgesagt",
+                "archivedmarkets": "Archivierte Märkte",
+                "tooltip": "Märkte vor mehr als 7 Tagen beendet"
+            },
+            "sport": {
+                "all": "alle Sportarten",
+                "basketball": "Basketball",
+                "soccer": "Fußball",
+                "hockey": "Hockey",
+                "tennis": "Tennis",
+                "football": "American Football",
+                "ufc": "MMA",
+                "baseball": "Baseball",
+                "formula1": "Formel 1",
+                "motogp": "MotoGP",
+                "soon": "Bald noch mehr Sportarten!"
+            },
+            "all": "Alle",
+            "datepicker": {
+                "games": "{{numberOfGames}} Spiele"
+            }
+        },
+        "back-to-markets": "Zurück zu den Märkten",
+        "back-to-market": "Zurück zum Markt",
+        "no-markets-found": "Keine Märkte gefunden",
+        "view-all-markets": "Alle Märkte anzeigen",
+        "table": {
+            "title": "Neueste Aktivität",
+            "date-time-col": "Datum | Zeit",
+            "type-col": "Typ",
+            "position-col": "Position",
+            "amount-col": "Betrag",
+            "paid-col": "bezahlt",
+            "tx-status-col": "tx Status",
+            "type": {
+                "bid": "Angebot",
+                "withdrawal": "Abheben",
+                "changePosition": "Position ändern",
+                "claim": "Einfordern",
+                "buy": "KAUFEN",
+                "sell": "VERKAUFEN"
+            },
+            "no-results": "Keine Transaktionen verbunden mit diesem Markt.",
+            "no-results-for-wallet": "Mit diesen Wallet sind keine Transaktionen verbunden.",
+            "result-col": "Ergebnis",
+            "usd-value-col": "USD-Wert",
+            "game-col": "Spiel"
+        },
+        "tooltip": {
+            "amount-exceeded": "Der Betrag überstieg den auf der AMM verfügbaren Betrag",
+            "minimal-amount": "Der Mindestbetrag ist 1",
+            "no-funds": "Bitte stell sicher, dass dein Wallet ausreichend USD enthält"
+        }
+    },
+    "markets": {
+        "market-card": {
+            "starts": "startet",
+            "claimable": "Einforderbar",
+            "finished": "Beendet",
+            "result": "Resultat",
+            "started": "Begonnen",
+            "canceled": "Abgesagt",
+            "pending-resolution": "Ausstehende Auflösung",
+            "claim": "Einfordern",
+            "coming-soon": "Bald",
+            "vs": "VS",
+            "draw": "X",
+            "paused": "Pausiert"
+        },
+        "market-details": {
+            "price": "Preis",
+            "liquidity": "Liquidität",
+            "usd-amount": "USD Betrag",
+            "positions-amount": "Positionen Betrag",
+            "amount-to-sell": "Zu verkaufender Betrag",
+            "total-to-receive": "Zu erhaltender Betrag",
+            "potential-profit": "Möglicher Gewinn",
+            "amount-claimable": "Einforderbarer Gewinn",
+            "claim-back": "Rückerstattung verlangen",
+            "max": "Max",
+            "wallet-info": {
+                "title": "Im Wallet"
+            },
+            "skew": "Skew",
+            "discount": "Rabatt"
+        },
+        "zero-odds-tooltip": "Sports AMM bietet nur Liquidität in der Preisspanne von $0,05 bis $0,95. Dies bedeutet, dass wenn die Quoten für eine Position weniger als 5% oder mehr als 95% betragen, diese Position keine Liquidität hat.",
+        "discounted-per": "Ermäßigt gem"
+    },
+    "rewards": {
+        "header": "Preise",
+        "search-placeholder": "Wallet Addresse suchen",
+        "description": "<0> Insgesamt 8.000 OP und 8.000 Thales werden vom 26. September bis zum 10. Oktober 00:00 UTC verteilt, um die an die SafeBox-Verträge gezahlten Gebühren auszugleichen. </0> <0> Die Rangliste berechnet die Belohnungen als 90% Rabatt auf die SafeBox-Gebühr, die 2% des Gesamtbetrags in sUSD beträgt. </0> <0> Der $-Wert von OP und THALES wird mit einem 7-Tage-Twap zu Beginn des Zeitraums berechnet. </0> <0>Wenn am Ende des zweiwöchigen Zeitraums die Gesamtrebatte mehr als der anfängliche Twap-Wert der OP- und THALES-Tokens beträgt, wird der Rabatt für jeden Trader proportional reduziert.</0>",
+        "op-rewards-banner-message": "Die OP-Prämien haben begonnen. Wie ihr sie verdienen könnt, erfahrt ihr auf <bold>der OP-Prämienseite</bold>.",
+        "table": {
+            "wallet-address": "Wallet Addresse",
+            "pnl": "Profite",
+            "percentage": "Prozent",
+            "reward-amount": "Prämie",
+            "no-data-available": "Keine Daten verfügbar",
+            "volume": "Volumen",
+            "safebox": "SafeBox-Gebühren",
+            "rebates": "Rabatte"
+        },
+        "periods": {
+            "period-0": "Zweite Periode",
+            "period-1": "Erste Periode",
+            "period-2": "Dritte Periode",
+            "period-3": "Vierte Periode",
+            "period-4": "Fünfte Periode"
+        },
+        "your-score": "Ihr Ergebnis",
+        "total-negative-pnl": "Totalverluste",
+        "twap": "Eine Woche TWAP",
+        "total-global-rebates": "Gesamtrabatte zu zahlen"
+    },
+    "quiz": {
+        "title": "Sport Trivia Wettbewerb",
+        "start-quiz-description": "<p>Hallo Sportfans! Bist du bereit, dein Wissen zu testen?</p><p>Overtime hat einen Sport-Trivia-Quiz-Wettbewerb ins Leben gerufen. Das Quiz steht jedem zur Verfügung, um sein Wissen zu testen und sich mit anderen zu messen.</p><p>Verbinden dein Wallet und gib deinen Twitter-Handle ein, um das Quiz zu starten! Für Fragen kannst du unserem <discord>Discord</discord> beitreten.</p>",
+        "twitter-handle-label": "Twitter Handle",
+        "twitter-handle-placeholder": "Geben dein Twitter-Handle ein",
+        "twitter-handle-validation": "Ungültiger Twitter-Handle. Versuche es erneut.",
+        "discord-label": "Discord ID (optional)",
+        "discord-placeholder": "Gib deine Discord ID ein",
+        "current-question-label": "Aktuelle Frage: {{currentQuestion}}/{{numberOfQuestions}}",
+        "time-reamining-label": "Verbleibende Zeit <0/>",
+        "question-weight-label": "Schwierigkeit der Frage: {{points}}",
+        "point-label": "Punkt",
+        "points-label": "Punkte",
+        "quiz-finished-label": "Quiz fertig!",
+        "your-score-label": "Dein Ergebnis: {{score}}/{{max}} Punkte",
+        "button": {
+            "start-quiz-label": "Quiz startet",
+            "next-question-label": "Nächste Frage",
+            "previous-question-label": "Vorherige Frage",
+            "finish-quiz-label": "Quiz beenden",
+            "try-again-label": "Erneut versuchen",
+            "see-leaderboard-label": "Siehe Rangliste"
+        },
+        "leaderboard": {
+            "title": "Quiz Rangliste",
+            "description": "<p>Dies ist die Quiz-Rangliste, in der du sehen kannst, wie du im Vergleich zur Konkurrenz stehst.</p><p>Du kannst das Quiz <sportsTrivia>hier</sportsTrivia> so oft wiederholen, wie du willst.</p>",
+            "back-to-quiz": "Zurück zum Quiz",
+            "search-placeholder": "Suchen...",
+            "table": {
+                "rank-col": "Rang",
+                "wallet-address-col": "Wallet Addresse",
+                "twitter-col": "Twitter",
+                "points-col": "Punkte",
+                "time-col": "Zeit",
+                "rewards-col": "Preise",
+                "no-data-available": "Keine Daten verfügbar"
+            },
+            "period-end-label": "Die Frist endet in",
+            "period-ended-label": "Zeitraum beendet",
+            "week-label": "Woche",
+            "overtime-voucher": "Overtime Gutschein",
+            "all-time-leaderboard-label": "All time leaderboard"
+        },
+        "help-us-improve-label": "Hilf uns das Quiz zu verbessern",
+        "help-us-improve-tooltip": "Hilf uns das Sport-Quiz zu verbessern, indem du neue Fragen in die Fragen-Datenbank einträgst.",
+        "finish-messages": {
+            "your-best-result": "Dein bestes Resultat: {{points}} {{pointsLabel}}",
+            "rank-info": "Mit {{points}} {{pointsLabel}} bist du auf der Rangliste {{rank}} von {{totalParticipants}} Teilnehmern."
+        },
+        "difficulty-label": "Schwierigkeitsgrad",
+        "difficulty": {
+            "1": "Trivial",
+            "2": "Leicht",
+            "3": "Moderat",
+            "4": "Herausfordernd",
+            "5": "Schwer"
+        }
+    }
+}
